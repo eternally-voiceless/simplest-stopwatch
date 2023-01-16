@@ -1,0 +1,9 @@
+#ignore all file and folders related to CMake
+
+*.cmake
+**/CMakeCache.txt
+**/Makefile
+**/CMakeFiles
+
+#ignore executable program
+timer
