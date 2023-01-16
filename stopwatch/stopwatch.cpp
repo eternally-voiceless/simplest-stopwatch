@@ -58,12 +58,10 @@ std::string formatted_time(std::chrono::time_point<std::chrono::system_clock> tp
 
     while(s>=60){
         s-=s_in_m;
-        std::cout<<"Check sec"<<std::endl;
     }
 
     while(m>=60){
         m-=m_in_h;
-        std::cout<<"Check min"<<std::endl;
     }
 
     std::string str_h{""}, str_m{""}, str_s{};
